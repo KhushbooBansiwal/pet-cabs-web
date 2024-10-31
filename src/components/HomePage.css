@@ -1,0 +1,99 @@
+@import url('https://fonts.googleapis.com/css2?family=Cardo:ital,wght@0,400;0,700;1,400&display=swap');
+
+body{
+    margin: 0;
+   padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, sans-serif;
+}
+.heading{
+    font-size: 2.5rem;
+    color: #0c0b0b;
+    display: flex;
+    align-items: center;
+    padding: 10px;
+    margin: 0px;
+    flex-wrap: wrap;
+}
+header{
+    background-color:  #eff4ff;
+    padding: 20px;
+    
+    font-weight: bold;
+   
+}
+.navbar{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    font-weight: bold;
+    font-family: "Cardo", serif;
+}
+
+.nav-links{
+    list-style: none;
+    display: flex;
+}
+.nav-links li{
+    margin-left: 20px;
+}
+.nav-links a{
+    text-decoration: none;
+    color: #333;
+    transition: color 0.3s;
+}
+
+nav ul li a{
+     color: #ffffff;
+     text-decoration: none;
+     transition: color 0.3s ease;
+}
+.nav-links a:hover{
+    color: #25d366;
+}
+.hero{
+    font-family: "Cardo", serif;
+   background-image: url(images/homepage-image-s.jpeg);
+   background-size: cover;
+   background-position: center;
+   height: 580px;
+   display: flex;
+   flex-direction: column;
+   justify-content: center;
+   align-items: center;
+   color: white;
+   text-align: center;
+    flex-wrap: wrap;
+}
+.hero h2{
+font-size: 2.5rem;
+font-weight: 600;
+color: white;
+margin-top: 10px;
+}
+.hero p{
+    font-size: 1.2rem;
+    color: #15ff4f;
+    margin-top: 10px;
+    font-family: poppins;
+    
+}
+.cta-button{
+background-color: #25d366;
+color: white;
+padding: 12px 24px;
+font-size: 1rem;
+border: none;
+border-radius: 8px;
+cursor: pointer;
+text-decoration: none;
+transition: background-color 0.3sease transform 0.2s ease ;
+}
+.cta-button:hover {
+    background-color: #1ebd53; /* Darker green on hover */
+    transform: scale(1.05);
+}
+
+.cta-button:active {
+    transform: scale(0.98);
+}
